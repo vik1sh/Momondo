@@ -36,7 +36,7 @@ main {
     background: url('../img/background\ heart.jpg') no-repeat scroll;
     background-size: cover;
     background-position: center;
-    height: 470px;
+    height: auto;
 }
 main .row h1 {
     font-size: 57px;
@@ -61,6 +61,7 @@ main .row .nav-pills .nav-link.active {
     height: auto;
     background-position: center;
 }
+
 #fun .row .box {
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
