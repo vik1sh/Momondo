@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.bg-purple {
+    background-color: #5D327A;
+}
+.bg-pink {
+    background-color: #FE586F;
+}
+/*Header section start*/
+header {
+    background-color: #101c3a;
+}
+header #home {
+    color: #fe586f;
+}
+header ul li .nav-link {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+header ul li .nav-link:hover {
+    color: #fe586f;
+}
+header .btn {
+    color: #47c907;
+}
+header .btn:hover {
+    color: #4ba31f
+}
+/*Header section end*/
+/* banner section start */
+main {
+    background: url('../img/background\ heart.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: center;
+    height: 470px;
+}
+main .row h1 {
+    font-size: 57px;
+    font-weight: 400;
+}
+main .row .nav-pills .nav-link {
+    background-color: #513271;
+    margin: 0px 5px;
+    padding: 7px 15px;
+    color: white;
+}
+main .row .nav-pills .nav-link.active {
+    background-color: #e40a27;
+    border-radius: 0px;
+}
+/* banner section end */
+/*fun section start*/
+#fun {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../img/fun.jpg) no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: center;
+}
+#fun .row .box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+/*fun section start*/
+/*subscribe section start*/
+#subscribe {
+    background: url('../img/news3.jpg');
+    height: auto;
+    background-size: cover;
+}
+#subscribe input {
+    height: 50px;
+    font-size: 17px;
+    border: 4px outset #fafaff;
+    width: 65%;
+    padding: 0px 25px;
+    transition: all 0.5s;
+    background: transparent;
+    color: white;
+}
+#subscribe input:focus {
+    border: 4px solid rgb(157, 157, 219);
+    outline: none;
+}
+#subscribe button {
+    font-size: 17px;
+    background-color: white;
+    color: blue;
+    font-weight: 500;
+    height: 50px;
+    width: 150px;
+    border: 2px solid blue;
+}
+/*subscribe section end*/
+/* popular section start */
+#popular {
+    background-color: #1F182C;
+}
+#popular .col .box {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#popular .col .box img {
+    width: 100%;
+    height: 170px;
+}
+#popular .col .box span {
+    color: rgb(197, 21, 80);
+}
+/* popular section end */
+/*estimatesectionstart*/
+#estimate {
+    height: auto;
+    background-color: #664CAE;
+    position: relative;
+}
+#estimate #img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    right: 0;
+}
+/*estimatesectionend*/
+/*footersectionstar*/
+footer {
+    background-color: #201929;
+}
+footer .first-ul {
+    list-style-image: url(../img/111134_world_global_earth_icon.png);
+}
+footer .first-ul span{
+    font-weight: 100;
+}
+footer .second-ul {
+    list-style-image: url(../img/1737383_gps_location_locationpin2_pin_icon.png);
+}
+footer .second-ul span{
+    font-weight: 100;
+}
+footer .third-ul li {
+    list-style-type: none;
+} 
+footer .fourth-ul li {
+    list-style-type: none;
+    margin: 10px;
+    display: inline-block;
+    
+} 
+footer .fourth-ul li a {
+    text-decoration: none;
+    color: white;
+}
+footer .fourth-ul h6 {
+    font-size: 16px;
+    font-weight: 100;
+}
+/*footersectionend*/
+
+/*max-width767pxstart*/
+@media  screen and(max-width:767px) {
+    main.row h1 {
+        font-size: 40px;
+    }
+}
+/* max-width 767px end */
+/* max-width 575px start */
+@media screen and (max-width:575px) {
+    main .row h1 {
+        font-size: 30px;
+    }   
+}
+
+/* max-width 575px end *
